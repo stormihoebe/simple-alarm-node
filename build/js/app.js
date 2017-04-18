@@ -46,7 +46,7 @@ $(function(){
           console.log("I am checking, it isn't time yet");
         }
       }
-      var interval = setInterval(checkAlarm, 1000);
+      setInterval(checkAlarm, 1000);
 
     });
 
